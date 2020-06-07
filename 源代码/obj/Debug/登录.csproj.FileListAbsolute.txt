@@ -1,0 +1,16 @@
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\bin\Debug\登录.exe.config
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\bin\Debug\登录.exe
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\bin\Debug\登录.pdb
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.csprojAssemblyReference.cache
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.Formlogin.resources
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.Properties.Resources.resources
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.csproj.GenerateResource.cache
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.csproj.CoreCompileInputs.cache
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.exe
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.pdb
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.Formlogin1.resources
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.Forminsert.resources
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.FormStu.resources
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.Formdelete.resources
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.FormUpdate.resources
+D:\fu\AAA学习\Aa数据库\AA Visual 开发\登录\登录\obj\Debug\登录.FormSelect.resources

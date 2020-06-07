@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="schoolDataSet5" targetNamespace="http://tempuri.org/schoolDataSet5.xsd" xmlns:mstns="http://tempuri.org/schoolDataSet5.xsd" xmlns="http://tempuri.org/schoolDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="schoolConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="schoolConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.登录.Properties.Settings.GlobalReference.Default.schoolConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AVG_GradeTableAdapter" GeneratorDataComponentClassName="AVG_GradeTableAdapter" Name="AVG_Grade" UserDataComponentName="AVG_GradeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="schoolConnectionString (Settings)" DbObjectName="school.dbo.AVG_Grade" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Cno, avg_grade FROM dbo.AVG_Grade</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Cno" DataSetColumn="Cno" />
+              <Mapping SourceColumn="avg_grade" DataSetColumn="avg_grade" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="schoolDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="schoolDataSet5" msprop:Generator_UserDSName="schoolDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AVG_Grade" msprop:Generator_TableClassName="AVG_GradeDataTable" msprop:Generator_TableVarName="tableAVG_Grade" msprop:Generator_TablePropName="AVG_Grade" msprop:Generator_RowDeletingName="AVG_GradeRowDeleting" msprop:Generator_RowChangingName="AVG_GradeRowChanging" msprop:Generator_RowEvHandlerName="AVG_GradeRowChangeEventHandler" msprop:Generator_RowDeletedName="AVG_GradeRowDeleted" msprop:Generator_UserTableName="AVG_Grade" msprop:Generator_RowChangedName="AVG_GradeRowChanged" msprop:Generator_RowEvArgName="AVG_GradeRowChangeEvent" msprop:Generator_RowClassName="AVG_GradeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cno" msprop:Generator_ColumnVarNameInTable="columnCno" msprop:Generator_ColumnPropNameInRow="Cno" msprop:Generator_ColumnPropNameInTable="CnoColumn" msprop:Generator_UserColumnName="Cno">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="avg_grade" msprop:Generator_ColumnVarNameInTable="columnavg_grade" msprop:Generator_ColumnPropNameInRow="avg_grade" msprop:Generator_ColumnPropNameInTable="avg_gradeColumn" msprop:Generator_UserColumnName="avg_grade" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
