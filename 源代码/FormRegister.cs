@@ -61,7 +61,7 @@ namespace 登录
                 MessageBox.Show("请填写UserID！","Tips",MessageBoxButtons.OK,MessageBoxIcon.Warning);//不能为空
             }
         }
-        string connString = "Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626";//数据库连接字符串
+        string connString = Class1.schoolConnectionString;//数据库连接字符串
         
         private void buttonOK_Click(object sender, EventArgs e)
         {

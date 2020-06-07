@@ -36,7 +36,7 @@ namespace 登录
             this.sysUserTableAdapter.Fill(this.schoolDataSet1.SysUser);
         }
 
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
         private void button_delete_Click(object sender, EventArgs e)
         {
             int flag = 0;

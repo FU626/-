@@ -55,7 +55,7 @@ namespace 登录
             formPerson_T.textBox_userid.Text = label_userid.Text.Trim();
             formPerson_T.ShowDialog();
         }
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
         private void FormTeacher_Load(object sender, EventArgs e)
         {
             try

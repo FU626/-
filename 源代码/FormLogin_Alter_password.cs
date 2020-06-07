@@ -40,7 +40,7 @@ namespace 登录
             String password2 = textBox_password2.Text.Trim();
             String Mobilestr = textBox_phone.Text.Trim(); //取出手机号
 
-            String myConnString = "Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626";
+            String myConnString = Class1.schoolConnectionString;
             //创建数据库连接对象并实例化
             SqlConnection sqlConnection = new SqlConnection(myConnString);
             try

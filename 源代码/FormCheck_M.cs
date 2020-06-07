@@ -12,6 +12,7 @@ using System.Windows.Forms;
 
 namespace 登录
 {
+ 
     public partial class FormCheck_M : Form
     {
         public FormCheck_M()
@@ -36,7 +37,7 @@ namespace 登录
             // TODO: 这行代码将数据加载到表“schoolDataSet1.SysUser”中。您可以根据需要移动或删除它。
             this.sysUserTableAdapter.Fill(this.schoolDataSet1.SysUser);
 
-            SqlConnection sqlConnection = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+            SqlConnection sqlConnection = new SqlConnection(Class1.schoolConnectionString);
             String select_by = "select * from SysLog order by DateAndTime ASC";
             sqlConnection.Open();
             SqlCommand sqlCommand = new SqlCommand(select_by, sqlConnection);
@@ -61,7 +62,7 @@ namespace 登录
         {
             try
             {
-                string connString = "Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626";//数据库连接字符串
+                string connString = Class1.schoolConnectionString;//数据库连接字符串
                 SqlConnection connection = new SqlConnection(connString);//创建connection对象
 
                 //打开数据库连接

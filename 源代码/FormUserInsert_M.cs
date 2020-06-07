@@ -60,7 +60,7 @@ namespace 登录
             }
             fs.Close();
         }
-        string connString = "Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626";//数据库连接字符串
+        string connString = Class1.schoolConnectionString;//数据库连接字符串
         private void button_OK_Click(object sender, EventArgs e)
         {
             int flag = 0;//0表示身份是STUDENT，1表示身份是Teacher

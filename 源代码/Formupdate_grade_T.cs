@@ -28,7 +28,7 @@ namespace 登录
         private void button1_Click(object sender, EventArgs e)
         {
             int flag = 0;//判断是否修改或录入成功
-            SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+            SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
             String strsno = textBox_sno.Text.Trim();
             String strcno = textBox_cno.Text.Trim();
             String Grade = textBox_grade.Text.Trim();

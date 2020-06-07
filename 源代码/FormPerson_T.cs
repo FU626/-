@@ -32,7 +32,7 @@ namespace 登录
             }
             return strbul.ToString();
         }
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
         
         private void button_save_Click(object sender, EventArgs e)
         {

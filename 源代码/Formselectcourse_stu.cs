@@ -17,7 +17,7 @@ namespace 登录
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
         int flag = 0;//该标志变量表示是否存在该课程
         private void Formselectcourse_stu_Load(object sender, EventArgs e)
         {

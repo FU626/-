@@ -17,7 +17,7 @@ namespace 登录
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
         private void FormSC_Load(object sender, EventArgs e)
         {
             // TODO: 这行代码将数据加载到表“schoolDataSet1.SC”中。您可以根据需要移动或删除它。

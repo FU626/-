@@ -68,7 +68,7 @@ namespace 登录
             String Identity = comboBox_identity.Text.Trim(); //取出身份
 
            
-            String myConnString = "Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626";
+            String myConnString = Class1.schoolConnectionString;
             //创建数据库连接对象并实例化
             SqlConnection sqlConnection = new SqlConnection(myConnString);
             sqlConnection.Open();//打开数据库

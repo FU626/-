@@ -26,7 +26,7 @@ namespace 登录
             this.sTU_GradeTableAdapter.Fill(this.schoolDataSet3.STU_Grade);
 
         }
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
         private void button_select_Click(object sender, EventArgs e)
         {
             if(textBox_cno.Text.Trim()== "")

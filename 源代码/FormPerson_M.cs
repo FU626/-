@@ -21,7 +21,7 @@ namespace 登录
             InitializeComponent();
         }
 
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
         private void FormPersonM_Load(object sender, EventArgs e)
         {
             
@@ -111,7 +111,7 @@ namespace 登录
 
         private void button_refresh_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+            SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
             String id = label_id.Text.Trim();
 
             try

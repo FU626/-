@@ -24,7 +24,7 @@ namespace 登录
             this.studentTableAdapter.Fill(this.schoolDataSet.Student);
 
         }
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
         private void button_insert_Click(object sender, EventArgs e)
         {
             String StuID = textBox_sno.Text.Trim();

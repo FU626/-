@@ -25,7 +25,7 @@ namespace 登录
 
         }
 
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
 
         private void buttonclear_Click(object sender, EventArgs e)
         {

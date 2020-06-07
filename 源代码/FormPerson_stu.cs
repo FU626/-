@@ -19,7 +19,7 @@ namespace 登录
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=school;Persist Security Info=True;User ID=sa;Password=fucong916626");
+        SqlConnection con = new SqlConnection(Class1.schoolConnectionString);
         public static string EncryptWithMD5(string source)
         {
             byte[] sor = Encoding.UTF8.GetBytes(source);
